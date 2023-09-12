@@ -11,7 +11,7 @@ LABEL org.opencontainers.image.source="https://github.com/Edirom/Jenkins"
 
 USER root
 
-ARG XMLCalabash=https://github.com/ndw/xmlcalabash1/releases/download/1.2.5-100/xmlcalabash-1.2.5-100.zip
+ARG XMLCalabash=https://github.com/ndw/xmlcalabash1/releases/download/1.5.7-120/xmlcalabash-1.5.7-120.zip
 
 # installing Subversion, Python3, Ant, Saxon, Node, nodejs (lts version), and Git
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
