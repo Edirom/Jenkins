@@ -6,7 +6,7 @@
 #
 ##########################################
 FROM jenkins/jenkins:lts-jdk17
-LABEL maintainer="Peter Stadler for the ViFE"
+LABEL org.opencontainers.image.authors="Peter Stadler for the ViFE"
 LABEL org.opencontainers.image.source="https://github.com/Edirom/Jenkins"
 
 USER root
