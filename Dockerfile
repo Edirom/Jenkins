@@ -5,7 +5,7 @@
 # we add just some additional binaries
 #
 ##########################################
-FROM jenkins/jenkins:lts-jdk17
+FROM jenkins/jenkins:lts-jdk21
 LABEL org.opencontainers.image.authors="Peter Stadler for the ViFE"
 LABEL org.opencontainers.image.source="https://github.com/Edirom/Jenkins"
 
