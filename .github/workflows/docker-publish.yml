@@ -11,6 +11,8 @@ on:
     - cron: '31 22 * * 4'
   # run on every push to any branch
   push:
+    branches-ignore:
+      - dependabot/*
   workflow_dispatch:
   
 env:
